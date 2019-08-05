@@ -32,20 +32,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+  It is the Document Object Model.  This is the object that gets created when a browser interprets the code is it given. The webpage is actually an object with many many methods and key value pairs that make up the website as well as it's built in functionality
+
 2. What is an event?
+
+  an event is when there is an action that takes place within the DOM.  It could be a person clicking on an element, scrolling down the web page or even the web page loading.
 
 3. What is an event listener?
 
+  An event listener is a function that when run it watches for an action to happen to a part of the DOM. When the action takes place it then invokes the callback function defined in the event listener
+
 4. Why would we convert a NodeList into an Array?
+
+  There are more methods that are accessible to an Array than there are for a NodeList.  For instance, .reduce() and .map() are both only accessible to Arrays and not to NodeLists.
 
 5. What is a component?
 
+  Components are small reusable sets of behaviors that are written for sections of a website.  For instance you can write a navigation component, that can be called on every web page on the website / web app, that will make sub-menus drop down from the main menu.  
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
